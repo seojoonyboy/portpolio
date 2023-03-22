@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body *{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.idx {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color : #333;
+
+}
+
+.icons {
+    padding: 0;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: right;
+    display: flex;
+    gap: 0 20px;
+}
+.button.button--sacnite {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    min-width: 0;
+    padding: 0;
+    color: #000;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.button.button--sacnite img {
+    width: 100%;
+}
+
+.fa-brands, .fab {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.sns h3 {
+    font-size: 16px;
+    color : #333;
+}
+
+.cbx h2 {
+    text-align: center;
+    border-bottom: dashed 2px #CCCCCC;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.about>div {
+    display: flex;
+    align-items: center;
+}
+
+.about figure {
+    background : url(../Image/me.jpg) no-repeat top/cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;    
+}
+
+.about p {
+    text-align: left;
+    width: 80%;
+    line-height: 1.8;
+}
+
+.exp>ul {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.exp>ul>li:first-child {
+    padding-right: 30px;
+    border-right: 1px solid #ccc;
+    width: 30%;
+    box-sizing: border-box;
+}
+.exp>ul>li:nth-child(2) {
+    width: 80%;
+}
+
+.exp>ul h3 {
+    font-size: 25px;
+}
+
+.exp>ul h4 a{
+    font-size: 15px;
+    color : #555;
+}
+.exp>ul h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.exp>ul h6 {
+    font-size: 16px;
+    color : #555;
+}
+
+.spc h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.spc>ul>li+li {
+    padding-top: 50px;
+}
+
+.spc>ul>li>ul {
+    list-style: circle; 
+}
+
+.skill h3 {
+    font-size: 25px;
+    border-right: 1px solid #ccc;
+    width: 30%;
+}
+
+.skill ul>li {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.skill ol {
+    list-style: circle; 
+}
+
+
+
+
+
+
