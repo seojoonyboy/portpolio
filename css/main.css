@@ -142,12 +142,14 @@ body *{
     display: flex;
 }
 
-.dcvid {
+.screen {
+    aspect-ratio: 560 /315;
     width: 100%;
 }
 
-.dcvid2 {
-    width: 33.3%;
+.screen iframe {
+    width: 100%;
+    height: 100%;
 }
 
 .exp>ul>li>ol>li figure {
@@ -162,10 +164,6 @@ body *{
 .exp>ul>li>ol>li>ul {
     list-style: circle;
     margin-left: 30px;
-}
-
-.fdvid {
-    width: 33.3%;
 }
 
 .spc h3 {
